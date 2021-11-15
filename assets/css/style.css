@@ -258,6 +258,10 @@
       flex: 0 70%;
     }
 
+    .run-buddy {
+        background-size: 170%;
+    }
+
     
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
