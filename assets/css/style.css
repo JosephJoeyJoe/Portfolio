@@ -162,11 +162,14 @@
 .robot-gladiators:hover {
     text-shadow: none;
     background-image: url('../images/amazonaws-com-thumbnail2.jpg');
+    flex-grow: 1;
 }
 
 .run-buddy:hover {
     text-shadow: none;
     background-image: url('../images/run-buddy2.jpg');
+    background-size: 120%;
+    flex-grow: 1;
 
 }
 
@@ -195,6 +198,7 @@
 .run-buddy {
     background-image: url('../images/run-buddy.jpg');
     background-position: center;
+    background-size: 100%;
     
 }
 
@@ -228,7 +232,6 @@
       justify-content: center;
       position: relative;
       width: 100%;
-    
     }
   
     header h1 {
@@ -255,9 +258,6 @@
       flex: 0 70%;
     }
 
-    .run-buddy {
-        background-size: 180%;
-    }
     
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
