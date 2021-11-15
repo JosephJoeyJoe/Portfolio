@@ -22,8 +22,6 @@
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-image: url("../images/havasu2.jpg");
-    max-width: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -73,7 +71,6 @@
 
 /* Hero Style Start */
 .hero {
-    background-image: url('../images/havasu.JPG');
     max-width: 100%;
     background-size: cover;
     background-position: center;
@@ -231,6 +228,7 @@
       justify-content: center;
       position: relative;
       width: 100%;
+    
     }
   
     header h1 {
@@ -280,8 +278,5 @@
       width: 95%;
     }
   
-  
-    .projects {
-      flex: 0 100%;
-    }
-  
+}
+}
