@@ -23,6 +23,7 @@
     position: sticky;
     top: 0;
     background-image: url("../images/havasu2.jpg");
+    max-width: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -73,6 +74,7 @@
 /* Hero Style Start */
 .hero {
     background-image: url('../images/havasu.JPG');
+    max-width: 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -188,6 +190,7 @@
     background-image: url('../images/amazonaws-com-thumbnail.jpg');
     background-position: center;
     padding-bottom: 20px;
+    max-width: 100%;
 
    
 }
@@ -195,6 +198,7 @@
 .run-buddy {
     background-image: url('../images/run-buddy.jpg');
     background-position: center;
+    
 }
 
 
@@ -202,23 +206,22 @@
     text-align: center;
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2.00vw;
+    font-size: 40px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: (var(--secondary-color));
+   
 }
 
 #contact-me {
     text-align: center;
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2.00vw;
+    font-size: 50px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: (var(--secondary-color));
-}
-
-footer {
-    border-top: gray 20px solid;
-    background-color: black;
+    border-bottom: black solid 20px;
+    max-width: 100%;
+    
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -227,6 +230,7 @@ footer {
       padding-bottom: 0;
       justify-content: center;
       position: relative;
+      width: 100%;
     }
   
     header h1 {
@@ -251,6 +255,10 @@ footer {
     
     .projects {
       flex: 0 70%;
+    }
+
+    .run-buddy {
+        background-size: 180%;
     }
     
   
@@ -277,7 +285,3 @@ footer {
       flex: 0 100%;
     }
   
-
-
-
-
