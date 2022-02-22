@@ -202,6 +202,12 @@
     
 }
 
+.case-tracker {
+  background-image: url(../images/case-tracker.png);
+  background-position: center;
+  background-size: 100%;
+}
+
 
 #contact-me a {
     text-align: center;
